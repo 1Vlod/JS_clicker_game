@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameClicker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="app">
+            <div class="app__header">
+                <h1 class="app__title">ClickerGame by Vlod</h1>
+                <div class="app__info">
+                    <div class="app__score" id="score" >00000</div>
+                    <span class="app__plus-title hide" id="plus-title">+1</span>
+                    <button class="app__btn-main" id="btn-main"><i class="fas fa-circle-notch rotate"></i></button>
+                </div>
+            </div>
+
+            <div class="app__content">
+                <button class="app__btn-plus" data-plus="1">+1</button>
+                <button class="app__btn-plus" data-plus="2">+2</button>
+                <button class="app__btn-plus" data-plus="3">+3</button>
+                <button class="app__btn-plus" data-plus="4">+4</button>
+                <button class="app__btn-plus" data-plus="5">+5</button>
+                <button class="app__btn-auto" data-plus="5">Auto+1</button>                
+                <div class="priceInfo"></div>
+            </div>
+
+            <div class="app__footer">
+                <button class="app__btn-refresh">Refresh</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
